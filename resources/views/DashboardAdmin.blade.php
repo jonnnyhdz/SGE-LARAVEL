@@ -20,7 +20,7 @@
 
                 <div class="space-x-9 font-thin italic">
                     <a href="/DocumentosAlumnos"><button class="text-white">Proyectos</button></a>
-                    <button class="text-white">Asesores</button>
+                    <a href="/Gavo"><button class="text-white">Asesores</button></a>
                     <button class="text-white">Docentes</button>
                     <button class="text-white">Documentos</button>
                     <a href="/Alumnos"><button class="text-white">Alumnos</button></a>

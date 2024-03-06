@@ -24,3 +24,8 @@ Route::get('/Alumnos', function () {
 Route::get('/DocumentosAlumnos', function () {
     return view('ControlDocAlumno');
 });
+
+
+Route::get('/Gavo', function () {
+    return view('Gavo');
+});
