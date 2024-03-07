@@ -29,3 +29,12 @@ Route::get('/DocumentosAlumnos', function () {
 Route::get('/Gavo', function () {
     return view('Gavo');
 });
+
+Route::get('/ControlLibros', function () {
+    return view('ControlLibros');
+});
+
+
+Route::get('Detalles', function(){
+    return view('Detalles');
+});

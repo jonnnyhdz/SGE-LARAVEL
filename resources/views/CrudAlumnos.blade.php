@@ -19,8 +19,8 @@
 
             <div class="space-x-9 font-thin italic">
                 <a href="/DocumentosAlumnos"><button class="text-white">Proyectos</button></a>
-                <button class="text-white">Asesores</button>
-                <button class="text-white">Docentes</button>
+                <a href="/Gavo"><button class="text-white">Asesores</button></a>
+                <a href="/ControlLibros"><button class="text-white">Docentes</button></a>
                 <button class="text-white">Documentos</button>
                 <a href="/Alumnos"><button class="text-white">Alumnos</button></a>
                 <button class="text-white">Roles</button>
@@ -28,9 +28,15 @@
         </div>
 
         <div class="flex items-center">
-            <input type="text" placeholder="Buscar..." class="bg-white p-2 rounded-md mr-4">
+            <input type="text" placeholder="Buscar..." class="bg-white p-2 rounded-2xl mr-4">
         </div>
     </nav>
+    <div style="margin-left: 2cm; margin-right: 2cm;">
+        <div class="p-5">
+            <div class="bg-white p-4 font-bold border-b border-black text-2xl">
+               Lista de alumnos
+            </div>
+
     <div class="flex flex-col mt-1 mx-auto max-w-7xl border border-gray-50 rounded-lg overflow-hidden p-0">
         <div class="my-1 overflow-x-auto sm:-mx-1 lg:-mx-1">
             <div class="py-1 align-middle inline-block min-w-full sm:px-1 lg:px-1">
@@ -50,7 +56,7 @@
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">
                                     Grupo
                                 </th>
-                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">
+                                <th scope="col" class="px-9 py-3 text-left text-xs font-medium uppercase tracking-wider">
                                     Acciones
                                 </th>
                             </tr>
@@ -79,7 +85,7 @@
                                     <button class="text-blue-700 hover:text-blue-700 mx-10">
                                         Editar
                                     </button>
-                                    <button class="text-red-600 hover:text-red-700 mx-">
+                                    <button class="text-red-600 hover:text-red-700">
                                         Eliminar
                                     </button>
                                 </td>
@@ -202,6 +208,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 </body>
 

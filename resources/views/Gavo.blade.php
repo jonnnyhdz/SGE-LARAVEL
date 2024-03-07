@@ -20,7 +20,7 @@
             <div class="space-x-9 font-thin italic">
                 <a href="/DocumentosAlumnos"><button class="text-white">Proyectos</button></a>
                 <a href="/Gavo"><button class="text-white">Asesores</button></a>
-                <button class="text-white">Docentes</button>
+                <a href="/ControlLibros"><button class="text-white">Docentes</button></a>
                 <button class="text-white">Documentos</button>
                 <a href="/Alumnos"><button class="text-white">Alumnos</button></a>
                 <button class="text-white">Roles</button>
@@ -28,7 +28,7 @@
         </div>
 
         <div class="flex items-center">
-            <input type="text" placeholder="Buscar..." class="bg-white p-2 rounded-md mr-4">
+            <input type="text" placeholder="Buscar..." class="bg-white p-2 rounded-2xl mr-4">
         </div>
     </nav>
     <div class="container mx-auto p-8">
